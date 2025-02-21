@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        num = +prompt("enter a number")
+        let a=(num%2==0)?"even":"odd";
+        console.log(a)
+
+        age = +prompt("enter ur age")
+        let b=(age>=18)?"major":"minaor";
+        console.log(b) 
+
+        marks = +prompt("enter ur marks")
+        let c=(marks>=90)?"A":(marks>=75)?"B":(marks>=60)?"C":(marks>=45)?"D":"FAIL";
+        console.log(c)
+
+        wether = +prompt("enter wether")
+        let d=(wether>=30)?"Hot":(20<=wether)?"warm":(10<=wether)?"cool":"cold";
+        console.log(d)    
+
+        wether = +prompt("enter wether")
+        let e =(wether>=30)?"Hot":(wether>20 && wether<30)?"warm":(wether>10 && wether<20)?"cool":"cold";
+        console.log(e)  
+        
+        age_group = +prompt("enter your age")
+        let  f =(age_group<12)?"child":(age_group<19)?"teen":(age_group<64)?"adult":"senior";
+        console.log(f)
+    </script>
+    
+</body>
+</html>
